@@ -19,7 +19,8 @@ The Bank app is a web-based application that simulates banking operations. A cus
 ## Validations
 <li> A withdrawal that would not result in a negative balance. </li>
 <li> A deposit or withdrawal of negative money is not possiable.</li>
-
+<li> Generation of Customer Id which unique.</li>
+<li> Transfer only valid amount. </li>
 
 
 ## Technologies Used
@@ -27,20 +28,22 @@ The Bank app is a web-based application that simulates banking operations. A cus
 * PostgreSQL-version 42.2.20
 * JDBC
 * Hibernate-version5.5.3 final
-* HTML, CSS
+* HTML
+* CSS
 * JavaScript
 * Servlet
 
 ## Features
 List of features ready and TODOs for future development
 
-Employee and Customer can Register by entering valid details and can also Login once Registerd
-Employee and Customer can perform all required functionality for the project
-Logging and Exception handling is also working
-To-do list:
+### List of features
+* Employee and Customer can Register by entering valid details and can also Login once Registerd.
+* Employee and Customer can perform all required functionality for the project
+* Logging and Exception handling is also working
 
-JUnit Testing for each function
-currently only one benifits coordinator is supported
+### To-do list:
+* JUnit Testing for each function
+* Currently only one benifits coordinator is supported
 ## Getting Started
 * Start with this Github Repository
 * Git clone to directory of your choice
