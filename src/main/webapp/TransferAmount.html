@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Transfer Amount</title>
+<link rel="stylesheet" href="css/Form.css">
+</head>
+<body> 
+<div class="main">
+	<div class="register">
+<h2> Enter Details to Transfer Amount</h2>
+<form id="register" action="TransferAmountServlet">
+
+		<lable>Receiver's Id : </lable>
+		<br><br>
+		<input type="number" name="receiverId" id="customerid" placeholder="Enter Sender's Id">
+		<br><br>
+	
+		<lable>Amount : </lable>
+		<br><br>
+		<input type="number" name="amount" id="customerid" placeholder="Enter Amount">
+		<br><br>
+		
+		<input type="submit" value="Tranfer" name="submit" id="submit"><br><br>
+		<input type="button" value="Go Back" name="submit" id="submit" 
+					onclick="window.location.href='UserHome.html'"/>
+					<br><br>
+	<!-- <form action="TransferAmountServlet">
+		<table align="center" cellspecing="10" cellpadding="10">
+			<tr>
+				<td>senderId:</td>
+				<td><input type="number" name="senderId" id="senderId" /></td>
+			</tr>
+			<tr>
+				<td>receiverId:</td>
+				<td><input type="number" name="receiverId" id="receiverId" /></td>
+			</tr>
+			<tr>
+				<td>Amount:</td>
+				<td><input type="number" name="amount" id="amount" /></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Transfer" /></td>
+				<td><input type="reset" value="Clear" /></td>
+			</tr>
+		</table>
+		</form> -->
+</body>
+</html>
